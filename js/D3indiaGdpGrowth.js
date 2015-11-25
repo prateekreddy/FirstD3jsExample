@@ -108,3 +108,4 @@ svg.selectAll("bar")
   d3.select("svg").attr("height", height+250);
 
 });
+ 
