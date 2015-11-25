@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/css/top15PerCapita.css">
+</head>
+<body onload="change()">
+  <h1 class="title"><select id="graph" onchange="change()">
+    <option value="perCapita">GDP perCapita + GNI perCapita</option>
+    <option value="normal">GDP + GNI &nbsp;</option>
+  </select> of Top 15 Countries</h1>
+  <script src="js/d3.js"></script>
+  <script src="js/d3-legend.min.js"></script>
+  <script src="js/d3.tip.js"></script>
+  <script src="js/top15PerCapita.js"></script>
+</body>
+</html>
